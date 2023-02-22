@@ -273,7 +273,7 @@ const body = () => {
                     </div>
                     <div className="order-2">
                         <div className="video md:mt-24 mt-10">
-                            <iframe className='w-[100vw] h-[30vh] md:w-[80vw] md:h-[80vh]' src="https://www.youtube.com/embed/YVgfHZMFFFQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                            <iframe className='w-[100vw] h-[30vh] md:w-[80vw] md:h-[80vh]' src="https://www.youtube.com/embed/YDsqedqmF84" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                         </div>
                     </div>
                 </div>
