@@ -7,8 +7,8 @@ const Navbar = () => {
     const [open, setopen] = useState(false);
     return (
         <>
-            <nav className="bg-purple-900 text-white md:max-w-[85vw] mx-auto fixed top-0">
-                <div className="flex items-center font-medium  justify-around w-[100%] bg-purple-900 fixed">
+            <nav className="bg-purple-900 text-white md:w-[85vw]  mx-auto fixed top-0">
+                <div className="flex items-center font-medium  justify-between w-[100%] bg-purple-900  fixed">
                     <div className="z-50 p-5 lg:w-auto w-full flex items-center justify-between">
                         <motion.div
                             whileHover={{
@@ -24,7 +24,7 @@ const Navbar = () => {
                             <HiMenuAlt1 name={`${open ? "close" : "menu"}`} className='text-3xl' />
                         </div>
                     </div>
-                    <ul className="md:flex hidden text-lg items-center gap-8 bg-purple-900">
+                    <ul className="md:flex hidden text-lg items-center gap-8 bg-purple-900 md:mr-10">
                         <Content />
                     </ul>
 

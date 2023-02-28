@@ -83,10 +83,10 @@ const body = () => {
                         className="md:w-[40vw] order-2 md:order-1">
                         <div className="content">
                             <h1 className="text-white text-2xl font-bold text-center md:text-left  md:tracking-[3px] md:text-[2.5rem] md:leading-[3.4rem] md:font-[1000]">
-                                A crypto wallet & <br /> gateway to <br /> blockchain apps
+                                A crypto wallet & <br /> gateway to <br /> blockchain World
                             </h1>
                             <p className="text-white mt-3 md:text-lg text-sm text-center md:text-left">
-                                Start exploring blockchain applications in seconds. Trusted by over 30 million users worldwide.
+                               Enhance your user experience with BitWallet, the key to blockchain world
                             </p>
                         </div>
                         <div
@@ -105,7 +105,7 @@ const body = () => {
                         transition={{ staggerChildren: 0.5 }}
                         className="md:w-[40vw] order-1 md:order-2">
                         <div className="image md:w-[40vw] mx-auto">
-                            <img src={image} alt="" className="w-60 mx-auto" />
+                            <img src={image} alt="" className="w-80 h-96 mx-auto" />
                         </div>
                     </motion.div>
                 </div>
@@ -119,10 +119,10 @@ const body = () => {
                         className="md:w-[40vw] order-2 md:order-1">
                         <div className="content">
                             <h1 className="text-white text-2xl font-bold text-center md:text-left ">
-                                Buy, store, send and swap tokens
+                                Use as a browser extension or mobile app
                             </h1>
                             <p className="text-white mt-3 md:text-[18px] text-sm text-center md:text-left">
-                                Available as a browser extension and as a mobile app, MetaMask equips you with a key vault, secure login, token wallet, and token exchange—everything you need to <br /> manage your digital assets.
+                                Available as a browser extension and as a mobile app, BitWallet equips you with a key vault, secure login, simple NFT and  <br /> Crypto storage and transfer.
                             </p>
                         </div>
                     </motion.div>
@@ -148,10 +148,10 @@ const body = () => {
                         className="md:w-[50%] order-2 md:order-2">
                         <div className="content">
                             <h1 className="text-white text-2xl font-bold text-center md:text-left  md:tracking-[3px] md:text-[2.5rem] md:leading-[3.4rem] md:font-[1000]">
-                                Own your data
+                               Security  for your digital assets
                             </h1>
                             <p className="text-white mt-3 md:text-lg text-sm text-center md:text-left">
-                                MetaMask generates passwords and keys on your device, so only you have access to your accounts and data. You always choose what to share and what to keep private.
+                                BitWallet generates passwords and keys on your device, so only you have access to your accounts and data. Assistance navigating through various decentralised websites and blockchain apps.
                             </p>
                         </div>
                     </motion.div>
@@ -177,10 +177,10 @@ const body = () => {
                         className="md:w-[50%] order-2 md:order-2">
                         <div className="content">
                             <h1 className="text-white text-2xl font-bold text-center md:text-left  md:tracking-[3px] md:text-[2.5rem] md:leading-[3.4rem] md:font-[1000]">
-                                Own your data
+                               Zero downtime
                             </h1>
                             <p className="text-white mt-3 md:text-lg text-sm text-center md:text-left">
-                                MetaMask generates passwords and keys on your device, so only you have access to your accounts and data. You always choose what to share and what to keep private.
+                               Protection of your keys through encryption
                             </p>
                         </div>
                     </motion.div>
