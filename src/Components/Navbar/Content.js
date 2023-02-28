@@ -4,61 +4,61 @@ import { RiArrowDropDownLine } from "react-icons/ri"
 const Content = () => {
     const [heading, setheading] = useState();
     const links = [
-        {
-            name: "Features", submenu: true, sublinks: [
-                {
-                    head: "Features",
-                    sublink: [
-                        {
-                            name: "Portfolio Daap's", link: "/"
-                        },
-                        {
-                            name: "Swaps", link: "/"
-                        },
-                        {
-                            name: "Buy Crypto", link: "/"
-                        },
-                        {
-                            name: "EIP-1559", link: "/"
-                        }
-                    ],
-                },
-            ],
-        },
-        {
-            name: "Support", submenu: true, sublinks: [
-                {
-                    head: "Support",
-                    sublink: [
-                        {
-                            name: "FAQ's", link: "/"
-                        },
-                        {
-                            name: "Learn", link: "/"
-                        },
-                        {
-                            name: "Get Support", link: "/"
-                        },
-                        {
-                            name: "Community", link: "/"
-                        }
-                    ],
-                },
-            ],
-        }, 
+        // {
+        //     name: "Features", submenu: true, sublinks: [
+        //         {
+        //             head: "Features",
+        //             sublink: [
+        //                 {
+        //                     name: "Portfolio Daap's", link: "/"
+        //                 },
+        //                 {
+        //                     name: "Swaps", link: "/"
+        //                 },
+        //                 {
+        //                     name: "Buy Crypto", link: "/"
+        //                 },
+        //                 {
+        //                     name: "EIP-1559", link: "/"
+        //                 }
+        //             ],
+        //         },
+        //     ],
+        // },
+        // {
+        //     name: "Support", submenu: true, sublinks: [
+        //         {
+        //             head: "Support",
+        //             sublink: [
+        //                 {
+        //                     name: "FAQ's", link: "/"
+        //                 },
+        //                 {
+        //                     name: "Learn", link: "/"
+        //                 },
+        //                 {
+        //                     name: "Get Support", link: "/"
+        //                 },
+        //                 {
+        //                     name: "Community", link: "/"
+        //                 }
+        //             ],
+        //         },
+        //     ],
+        // }, 
         {
             name: "Download", submenu: true, sublinks: [
                 {
                     head: "Download",
                     sublink: [
                         {
-                            name: "For Chrome", link: "/"
+                            name: "For Chrome", link: "https://chrome.google.com/webstore/detail/bit-wallet/ddphokhghjkekfdoddpeffdpojdofcan"
                         },
                         {
-                            name: "For IOS", link: "/"
+                            name: "For IOS", link: "https://apps.apple.com/us/app/be-imagine-technology-wallet/id6443855034"
                         },
                         {
-                            name: "For Android", link: "/"
+                            name: "For Android", link: "https://play.google.com/store/apps/details?id=beimagine.tech"
                         },
                     ],
                 },
@@ -72,7 +72,7 @@ const Content = () => {
                     <div className="px-3 text-left md:cursor-pointer group">
                         <div className="flex items-center hover:text-blue-700 hover:underline justify-between">
                             <h1 className="py-7" onClick={() => setheading(link.name)}>{link.name}</h1>
-                            <RiArrowDropDownLine className='text-2xl' />
+                            <RiArrowDropDownLine onClick={() => setheading(link.name)} className='text-2xl' />
                         </div>
                         {
                             link.submenu && (

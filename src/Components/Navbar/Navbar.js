@@ -8,15 +8,15 @@ const Navbar = () => {
     return (
         <>
             <nav className="bg-purple-900 text-white md:max-w-[85vw] mx-auto fixed top-0">
-                <div className="flex items-center font-medium justify-around w-[100%] bg-purple-900 fixed">
+                <div className="flex items-center font-medium  justify-around w-[100%] bg-purple-900 fixed">
                     <div className="z-50 p-5 lg:w-auto w-full flex items-center justify-between">
                         <motion.div
                             whileHover={{
                                 scale: 1.08
                             }}
                             className="flex items-center tracking-[3px]">
-                            <img src={bitwalletlogo} alt="logo" className="mr-3 h-16 w-16 md:cursor-pointer rounded-xl border" />
-                            <span className="text-2xl ">BITWALLET</span>
+                            <img src={bitwalletlogo} alt="logo" className="md:mr-3 h-16 w-16 md:cursor-pointer rounded-xl border" />
+                            <span className="md:text-2xl text-xl">BITWALLET</span>
                         </motion.div>
                         <div className="lg:hidden md:hidden" onClick={() => {
                             setopen(!open);

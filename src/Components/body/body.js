@@ -3,11 +3,12 @@ import image from "../../Assets/main.png"
 import image2 from "../../Assets/wallet-illo.svg"
 import image3 from "../../Assets/Explore-illo.png"
 import image4 from "../../Assets/Browse-illo.png"
-import qrcode from "../../Assets/qrcode.png" 
+import qrcode from "../../Assets/qrcode.png"
 import qrcode2 from "../../Assets/qrcode2.png"
 import apple from "../../Assets/apple.png";
 import chrome from "../../Assets/chrome.svg";
 import android from "../../Assets/android.png";
+import qrcode3 from "../../Assets/appleqr.png";
 import { Link } from "react-router-dom"
 import { motion } from 'framer-motion';
 const body = () => {
@@ -88,16 +89,13 @@ const body = () => {
                                 Start exploring blockchain applications in seconds. Trusted by over 30 million users worldwide.
                             </p>
                         </div>
-                        <motion.div
-                            whileHover={{
-                                scale: 0.89
-                            }}
+                        <div
                             className="button text-center md:text-left">
                             <button
                                 type="button"
                                 onClick={handleClickScroll}
                                 className="text-white w-full md:w-auto bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-semibold rounded-2xl text-xl px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 mt-4">Download Now</button>
-                        </motion.div>
+                        </div>
                     </motion.div>
                     <motion.div
                         variants={imageAnimation}
@@ -199,10 +197,10 @@ const body = () => {
                     </motion.div>
                 </div>
             </div>
-            <div id='main_content2' className="main_content2 mt-28 border shadow-2xl border-purple-900 rounded-xl bg-gray-700">
+            <div id='main_content2' className="sm:w-[80vw] main_content2 mt-28 border shadow-2xl border-purple-900 rounded-xl bg-gray-700">
                 <h1 className="text-center text-white text-4xl font-bold py-3">Download BitWallet</h1>
                 <div
-                    className='px-4 py-10 flex md:flex-row flex-col md:justify-between items-center md:w-[80vw] mx-auto mt-16'>
+                    className='px-4 py-10 flex md:flex-row flex-col  md:justify-between items-center md:w-[80vw] mx-auto mt-16'>
                     <motion.div
                         whileHover={{
                             scale: 1.08
@@ -226,26 +224,25 @@ const body = () => {
                         whileHover={{
                             scale: 1.08
                         }}
-                        className="md:max-w-[18rem] mt-8 md:mt-0 max-w-sm bg-white border border-gray-200 rounded-lg shadow-2xl shadow-gray-900 dark:bg-gray-800 dark:border-gray-700">
+                        className="md:max-w-[18rem] mt-8 sm:mt-0 max-w-sm bg-white border border-gray-200 rounded-lg shadow-2xl shadow-gray-900 dark:bg-gray-800 dark:border-gray-700">
                         <p>
-                            <img className="rounded-t-lg px-4 py-4 w-fit" src={qrcode} alt="img" />
+                            <img className="rounded-t-lg px-4 py-4 w-fit" src={qrcode3} alt="img" />
                         </p>
                         <div className="p-5">
                             <div>
                                 <p className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Download Ios application</p>
                             </div>
-                            <p className="inline-flex items-center px-3 py-2  text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            <Link to="https://apps.apple.com/us/app/be-imagine-technology-wallet/id6443855034" className="inline-flex items-center px-3 py-2  text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Download For
-                                <img src={apple} alt="" className="w-8 h-8 ml-2 -mr-1" />
-                            </p>
+                                <img src={apple} className="w-8 h-8 ml-2 -mr-1" />
+                            </Link>
                         </div>
                     </motion.div>
-
                     <motion.div
                         whileHover={{
                             scale: 1.08
                         }}
-                        className="md:max-w-[18rem] mt-8 md:mt-0 max-w-sm bg-white border border-gray-200 rounded-lg shadow-2xl shadow-gray-900 dark:bg-gray-800 dark:border-gray-700">
+                        className="md:max-w-[18rem] mt-8 sm:mt-0 max-w-sm bg-white border border-gray-200 rounded-lg shadow-2xl shadow-gray-900 dark:bg-gray-800 dark:border-gray-700">
                         <p>
                             <img className="rounded-t-lg px-4 py-4 w-fit" src={qrcode2} alt="img" />
                         </p>
@@ -253,10 +250,10 @@ const body = () => {
                             <div>
                                 <p className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Download Android Application</p>
                             </div>
-                            <p className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            <Link to="https://play.google.com/store/apps/details?id=beimagine.tech" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Download For
-                                <img src={android} alt="https://play.google.com/store/apps/details?id=beimagine.tech" className="w-8 h-8 ml-2 -mr-1" />
-                            </p>
+                                <img src={android} className="w-8 h-8 ml-2 -mr-1" />
+                            </Link>
                         </div>
                     </motion.div>
 
@@ -282,4 +279,4 @@ const body = () => {
     )
 }
 
-export default body
+export default body;
