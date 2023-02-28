@@ -118,10 +118,10 @@ const body = () => {
                         transition={{ staggerChildren: 0.5 }}
                         className="md:w-[40vw] order-2 md:order-1">
                         <div className="content">
-                            <h1 className="text-white text-2xl font-bold text-center md:text-left ">
+                            <h1 className="text-white text-2xl font-bold text-center md:text-left  md:tracking-[3px] md:text-[2.5rem] md:leading-[3.4rem] md:font-[1000]">
                                 Use as a browser extension or mobile app
                             </h1>
-                            <p className="text-white mt-3 md:text-[18px] text-sm text-center md:text-left">
+                            <p className="text-white mt-3 md:text-lg text-sm text-center md:text-left">
                                 Available as a browser extension and as a mobile app, BitWallet equips you with a key vault, secure login, simple NFT and  <br /> Crypto storage and transfer.
                             </p>
                         </div>
