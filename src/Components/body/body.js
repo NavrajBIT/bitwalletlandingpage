@@ -300,11 +300,11 @@ const body = () => {
                                         scale: 0.75
                                     }
                                 }
-                                className='px-5 py-6 rounded-xl bg-gray-800  shadow-xl shadow-gray-800'>
+                                className='px-5 py-6 rounded-xl bg-blue-600  shadow-xl shadow-gray-800'>
                                 <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
-                                    <FaUnlockAlt className="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 text-white" />
+                                    <FaUnlockAlt className="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 text-black" />
                                 </div>
-                                <h3 className="mb-2 text-xl font-bold dark:text-white">Data protection</h3>
+                                <h3 className="mb-2 text-xl font-bold text-black">Data protection</h3>
                                 <p className="text-gray-500 dark:text-gray-400">
 
                                 </p>
@@ -315,11 +315,11 @@ const body = () => {
                                         scale: 0.75
                                     }
                                 }
-                                className='px-5 py-6 rounded-xl bg-gray-800 shadow-xl shadow-gray-800'>
+                                className='px-5 py-6 rounded-xl bg-white shadow-xl shadow-gray-800'>
                                 <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
-                                    <RiNodeTree className="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 text-white" />
+                                    <RiNodeTree className="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 text-black" />
                                 </div>
-                                <h3 className="mb-2 text-xl font-bold dark:text-white">Robust Infrastructure</h3>
+                                <h3 className="mb-2 text-xl font-bold text-black">Robust Infrastructure</h3>
                                 <p className="text-gray-500 dark:text-gray-400">
 
                                 </p>
@@ -330,11 +330,11 @@ const body = () => {
                                         scale: 0.75
                                     }
                                 }
-                                className='px-5 py-6 rounded-xl bg-gray-800 shadow-xl shadow-gray-800'>
+                                className='px-5 py-6 rounded-xl bg-blue-600 shadow-xl shadow-gray-800'>
                                 <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
-                                    <SiHiveBlockchain className="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 text-white" />
+                                    <SiHiveBlockchain className="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 text-black" />
                                 </div>
-                                <h3 className="mb-2 text-xl font-bold dark:text-white">
+                                <h3 className="mb-2 text-xl font-bold text-black">
                                     Decentralized
                                 </h3>
                                 <p className="text-gray-500 dark:text-gray-400">
@@ -347,11 +347,11 @@ const body = () => {
                                         scale: 0.75
                                     }
                                 }
-                                className='px-5 py-6 rounded-xl bg-gray-800 shadow-xl shadow-gray-800'>
+                                className='px-5 py-6 rounded-xl bg-white shadow-xl shadow-gray-800'>
                                 <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
-                                    <AiOutlineSafetyCertificate className="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 text-white" />
+                                    <AiOutlineSafetyCertificate className="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 text-black" />
                                 </div>
-                                <h3 className="mb-2 text-xl font-bold dark:text-white">Verified and secure to use</h3>
+                                <h3 className="mb-2 text-xl font-bold text-black">Verified and secure to use</h3>
                                 <p className="text-gray-500 dark:text-gray-400">
 
                                 </p>
@@ -362,11 +362,11 @@ const body = () => {
                                         scale: 0.75
                                     }
                                 }
-                                className='px-5 py-6 rounded-xl bg-gray-800 shadow-xl shadow-gray-800'>
+                                className='px-5 py-6 rounded-xl bg-blue-600 shadow-xl shadow-gray-800'>
                                 <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
-                                    <FaHandHoldingUsd className="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 text-white" />
+                                    <FaHandHoldingUsd className="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 text-black" />
                                 </div>
-                                <h3 className="mb-2 text-xl font-bold dark:text-white">
+                                <h3 className="mb-2 text-xl font-bold text-black">
                                     Easy to Use
                                 </h3>
                                 <p className="text-gray-500 dark:text-gray-400">
@@ -379,11 +379,11 @@ const body = () => {
                                         scale: 0.75
                                     }
                                 }
-                                className='px-5 py-6 rounded-xl bg-gray-800 shadow-xl shadow-gray-800'>
+                                className='px-5 py-6 rounded-xl bg-white shadow-xl shadow-gray-800'>
                                 <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
-                                    <HiClipboardDocumentCheck className="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 text-white" />
+                                    <HiClipboardDocumentCheck className="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 text-black" />
                                 </div>
-                                <h3 className="mb-2 text-xl font-bold dark:text-white">Support Assets</h3>
+                                <h3 className="mb-2 text-xl font-bold text-black">Support Assets</h3>
                                 <p className="text-gray-500 dark:text-gray-400">
 
                                 </p>
