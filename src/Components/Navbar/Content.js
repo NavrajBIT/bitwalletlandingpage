@@ -4,48 +4,6 @@ import { RiArrowDropDownLine } from "react-icons/ri"
 const Content = () => {
     const [heading, setheading] = useState();
     const links = [
-        // {
-        //     name: "Features", submenu: true, sublinks: [
-        //         {
-        //             head: "Features",
-        //             sublink: [
-        //                 {
-        //                     name: "Portfolio Daap's", link: "/"
-        //                 },
-        //                 {
-        //                     name: "Swaps", link: "/"
-        //                 },
-        //                 {
-        //                     name: "Buy Crypto", link: "/"
-        //                 },
-        //                 {
-        //                     name: "EIP-1559", link: "/"
-        //                 }
-        //             ],
-        //         },
-        //     ],
-        // },
-        // {
-        //     name: "Support", submenu: true, sublinks: [
-        //         {
-        //             head: "Support",
-        //             sublink: [
-        //                 {
-        //                     name: "FAQ's", link: "/"
-        //                 },
-        //                 {
-        //                     name: "Learn", link: "/"
-        //                 },
-        //                 {
-        //                     name: "Get Support", link: "/"
-        //                 },
-        //                 {
-        //                     name: "Community", link: "/"
-        //                 }
-        //             ],
-        //         },
-        //     ],
-        // }, 
         {
             name: "Download", submenu: true, sublinks: [
                 {

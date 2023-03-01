@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
                         <a className="flex items-center">
-                            <img src={bitwalletlogo} className="h-8 mr-3 rounded-xl border" alt="FlowBite Logo" />
+                            <img src={bitwalletlogo} className="h-20 mr-3 rounded-xl" alt="FlowBite Logo" />
                             <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">BITWALLET</span>
                         </a>
                     </div>
